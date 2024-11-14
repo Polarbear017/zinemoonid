@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zinemoon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-text">
+            <h1>Zinemoon</h1>
+            <p>Publikasi Zine Untuk Semua Hal penting. Kami Mengalihfungsi Lahan Digital Menjadi Arsip Ulasan Bacaan.</p>
+        </div>
+    </header>
+        
+    <!-- GIF as Website Content -->
+    <div class="gif-container">
+        <img src="ini.gif" alt="Zine Gif">
+    </div>
+        
+    <!-- Button to Trigger Subscription Pop-up -->
+    <button class="subscribe-btn" onclick="openSubscriptionPopup()">Subscribe Now</button>
+
+    <!-- Subscription Pop-up -->
+    <div class="popup" id="subscription-popup">
+        <div class="popup-content">
+            <span class="close-btn" onclick="closeSubscriptionPopup()">&times;</span>
+            <h2>Subscription Fee</h2>
+            <p>Situs Ini Dirilis 17 November 2024, Subscribe Sekarang Untuk Akses Lebih Awal. Hanya Perlu Rp. 17.000/Bulan Atau Rp. 99.000/Tahun Saja.</p>
+            <button class="subscribe-btn-popup" onclick="redirectToWhatsApp()">Subscribe Now</button>
+        </div>
+    </div>
+
+</body>
+</html>
